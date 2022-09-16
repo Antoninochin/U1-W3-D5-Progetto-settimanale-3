@@ -22,7 +22,7 @@ function Delete(){
     document.getElementById('display').value = ''
  }
 
- /*risultato senza il metodo eval
+ /*risultato senza il metodo eval, rivedere equal
   function Result(){
   let somma = [1,2,3,4,5,6,7,8,9]
   let Result = somma(getElementById('display').value)
