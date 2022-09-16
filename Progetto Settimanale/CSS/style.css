@@ -7,7 +7,9 @@ h1{
     font-size: 2em;
     color: white;
 }
-
+h2{
+    color: white;
+}
 button{
     font-size: 2em;
     margin-bottom: 10px;

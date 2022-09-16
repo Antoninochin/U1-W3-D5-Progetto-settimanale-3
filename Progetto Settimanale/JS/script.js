@@ -1,3 +1,10 @@
+
+    let person = prompt('Inserisci il Tuo nome')
+    if (person != null){
+    document.getElementById('Interagire').innerHTML = 'Benvenuto' + ' ' + person + ',' +  ' adesso puoi calcolare!'; 
+    }
+
+
 function Write(number){
     document.getElementById('display').value += number
 }
