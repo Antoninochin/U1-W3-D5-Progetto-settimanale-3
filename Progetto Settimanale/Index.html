@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="styleSheet" href="./CSS/style.css" />
+    <script src="https://kit.fontawesome.com/85d2f65af1.js" crossorigin="anonymous"></script>
+    <title>Calcolatrice</title>
+  </head>
+  <body>
+    <h1>La Mia Calcolatrice in JS <i class="fas fa-laugh-beam"></i></h1>
+    <div id="box">
+      <div>
+        <input type="text" id="display" readonly placeholder="0" />
+      </div>
+      <div>
+        <button id="azure" onclick="Reset('AC')">AC</button>
+        <button id="azure" onclick="Delete('<')"><</button>
+        <button id="azure" onclick="Write('/')">/</button>
+        <button id="colorlight" onclick="Write('.')">.</button>
+        <button onclick="Write('1')">1</button>
+        <button onclick="Write('2')">2</button>
+        <button onclick="Write('3')">3</button>
+        <button id="colorlight" onclick="Write('+')">+</button>
+        <button onclick="Write('4')">4</button>
+        <button onclick="Write('5')">5</button>
+        <button onclick="Write('6')">6</button>
+        <button id="colorlight" onclick="Write('-')">-</button>
+        <button onclick="Write('7')">7</button>
+        <button onclick="Write('8')">8</button>
+        <button onclick="Write('9')">9</button>
+        <button id="colorlight" class="center" onclick="Write('*')">*</button>
+        <button class="align" onclick="Write('0')">0</button>
+        <button id="colorlight" class="align" onclick="Result()">=</button>
+      </div>
+    </div>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
