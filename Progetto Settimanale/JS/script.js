@@ -1,7 +1,7 @@
 
     let person = prompt('Inserisci il Tuo nome')
     if (person != null){
-    document.getElementById('Interagire').innerHTML = 'Benvenuto' + ' ' + person + ',' +  ' adesso puoi calcolare!'; 
+    document.getElementById('Interagire').innerHTML = 'Benvenuto/a' + ' ' + person + ',' +  ' adesso puoi calcolare!'; 
     }
 
 
