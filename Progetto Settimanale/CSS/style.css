@@ -51,5 +51,9 @@ button:hover{
 .align{
     margin-left: 4.7vw;
 }
-
+@media screen and (min-width: 1200px) {
+    #display{
+        width:19.7vw;
+    }
+}
 
