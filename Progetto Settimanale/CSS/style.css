@@ -11,7 +11,7 @@ h2{
     color: white;
 }
 button{
-    font-size: 2em;
+    font-size: 28px;
     margin-bottom: 10px;
     width: 4.5vw;
     border-radius: 50px;
@@ -30,13 +30,14 @@ button:hover{
     text-align: right;
     height: 50px;
     background-color: whitesmoke;
+    width: 95%;
 }
 
 #box{
     border-radius: 27px;
     border:3px solid black;
-    height: 50vh;
-    width: 20.5vw;
+    height: 48vh;
+    width: 21vw;
     margin: 0 auto;
     background: radial-gradient(circle, rgba(36,129,181,1) 0%, rgba(1,7,43,1) 100%);
 }
@@ -52,8 +53,11 @@ button:hover{
     margin-left: 4.7vw;
 }
 @media screen and (min-width: 1200px) {
-    #display{
-        width:19.7vw;
+    button{
+        font-size: 20px;
+    }
+    #box{
+        height: 40vh;
     }
 }
 
